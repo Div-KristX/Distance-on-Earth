@@ -4,20 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Your coordinates -->");
-        System.out.print("Latitude (-90 до 90) = ");
+        System.out.print("Latitude (-90 to 90) = ");
         Scanner sc = new Scanner(System.in);
         float re = sc.nextFloat();
-        System.out.print("longitude (-180 до 180) = ");
+        System.out.print("longitude (-180 to 180) = ");
         Scanner d = new Scanner(System.in);
         float deg = d.nextFloat();
 
 
 
         System.out.println("Coordinates to the point -->");
-        System.out.print("Latitude(-90 до 90) = ");
+        System.out.print("Latitude(-90 to 90) = ");
         Scanner sc2 = new Scanner(System.in);
         float re2 = sc2.nextFloat();
-        System.out.print("longitude (-180 до 180) = ");
+        System.out.print("longitude (-180 to 180) = ");
         Scanner d2 = new Scanner(System.in);
         float deg2 = d2.nextFloat();
 
